@@ -1,0 +1,182 @@
+.hidden {
+    display: none;
+}
+body {
+    text-align: center;
+    margin-top: 100px;
+    text-shadow: 2px 2px black;
+    color:dimgrey;
+}
+#login-form input{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: x-large;
+}
+#greeting {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 50px;
+    text-shadow: 1px 1px black;
+    top: 20%;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#link{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  position: fixed;
+  top: 30px;
+  left: 10px;
+}
+a {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: gray;
+    font-size:medium;
+    position: absolute;
+    top: 7px;
+    left: 10px;
+}
+ul{
+    /* margin-left: 200px;
+    margin-right: 200px; */
+    list-style-type: square;
+}
+#quote {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+    font-weight: 800;
+    position: fixed;
+    bottom: 7px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 100px;
+    text-shadow: 1px 1px white;
+}
+#todo-form {
+    position: fixed;
+    top: 42%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#todo-form input {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: large;
+}
+#todo-list{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 500px;
+    max-height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: x-large;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-shadow: 1px 1px black;
+
+}
+/* button:hover{
+    background-color: darkgray;
+    padding: 1px;
+    border-radius: 10px;
+    text-align: center;
+    display: inline-block;
+    font-size: 7px;
+    transition-duration: 0.5s;
+    /* box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+} */
+#clock {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 120px;
+    position:absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-shadow: 3px 3px black;
+}
+#weather {
+    font-family:'Courier New', Courier, monospace;
+    position: absolute;
+    top: 7px;
+    right: 10px;
+    text-shadow: 1px 1px white;
+    font-weight: 800;
+}
+#q {
+    font-size: x-large;
+    font-weight: 800;
+}
+
+/* <!-- HTML !-->
+<button class=button" role="button">Button 17</button> */
+
+/* CSS */
+button {
+  left: 10%;
+  align-items: center;
+  appearance: none;
+  background-color: #fff;
+  border-radius: 24px;
+  border-style: none;
+  box-shadow: rgba(0, 0, 0, .2) 0 3px 5px -1px,rgba(0, 0, 0, .14) 0 6px 10px 0,rgba(0, 0, 0, .12) 0 1px 18px 0;
+  box-sizing: border-box;
+  color: #3c4043;
+  cursor: pointer;
+  display: inline-flex;
+  fill: currentcolor;
+  font-family: "Google Sans",Roboto,Arial,sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  height: 20px;
+  justify-content: center;
+  letter-spacing: .25px;
+  line-height: normal;
+  max-width: 100%;
+  overflow: visible;
+  padding: 2px 2px;
+  position: relative;
+  text-align: center;
+  text-transform: none;
+  transition: box-shadow 280ms cubic-bezier(.4, 0, .2, 1),opacity 15ms linear 30ms,transform 270ms cubic-bezier(0, 0, .2, 1) 0ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: auto;
+  will-change: transform,opacity;
+  z-index: 0;
+}
+
+button:hover {
+  background: #F6F9FE;
+  color: #174ea6;
+}
+
+button:active {
+  box-shadow: 0 4px 4px 0 rgb(60 64 67 / 30%), 0 8px 12px 6px rgb(60 64 67 / 15%);
+  outline: none;
+}
+
+button:focus {
+  outline: none;
+  border: 2px solid #4285f4;
+}
+
+button:not(:disabled) {
+  box-shadow: rgba(60, 64, 67, .3) 0 1px 3px 0, rgba(60, 64, 67, .15) 0 4px 8px 3px;
+}
+
+button:not(:disabled):hover {
+  box-shadow: rgba(60, 64, 67, .3) 0 2px 3px 0, rgba(60, 64, 67, .15) 0 6px 10px 4px;
+}
+
+button:not(:disabled):focus {
+  box-shadow: rgba(60, 64, 67, .3) 0 1px 3px 0, rgba(60, 64, 67, .15) 0 4px 8px 3px;
+}
+
+button:not(:disabled):active {
+  box-shadow: rgba(60, 64, 67, .3) 0 4px 4px 0, rgba(60, 64, 67, .15) 0 8px 12px 6px;
+}
+
+button:disabled {
+  box-shadow: rgba(60, 64, 67, .3) 0 1px 3px 0, rgba(60, 64, 67, .15) 0 4px 8px 3px;
+}
